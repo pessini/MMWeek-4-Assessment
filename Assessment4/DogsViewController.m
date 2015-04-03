@@ -36,7 +36,6 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    //TODO: UPDATE THIS ACCORDINGLY
     return self.dogsArray.count;
 }
 
@@ -78,7 +77,6 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-
     AddDogViewController *vc = segue.destinationViewController;
 
     if ([segue.identifier isEqualToString: @"AddDogSegue"])
