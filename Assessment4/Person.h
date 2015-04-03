@@ -23,8 +23,4 @@
 - (void)addDogs:(NSSet *)values;
 - (void)removeDogs:(NSSet *)values;
 
-+ (NSArray *)retrieveDogOwnersFromAPI;
-
-
-
 @end

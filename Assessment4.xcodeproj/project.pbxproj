@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		56FBD0C31ACED9B400C784F0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FBD0C21ACED9B400C784F0 /* Person.m */; };
 		56FBD0C61ACED9B500C784F0 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FBD0C51ACED9B500C784F0 /* Dog.m */; };
+		56FBD0CC1ACF03FB00C784F0 /* JsonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FBD0CB1ACF03FB00C784F0 /* JsonData.m */; };
 		93CD77B11999604D00D27E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CD77B01999604D00D27E0A /* Foundation.framework */; };
 		93CD77B31999604D00D27E0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CD77B21999604D00D27E0A /* CoreGraphics.framework */; };
 		93CD77B51999604D00D27E0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CD77B41999604D00D27E0A /* UIKit.framework */; };
@@ -43,6 +44,8 @@
 		56FBD0C21ACED9B400C784F0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		56FBD0C41ACED9B500C784F0 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		56FBD0C51ACED9B500C784F0 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		56FBD0CA1ACF03FB00C784F0 /* JsonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonData.h; sourceTree = "<group>"; };
+		56FBD0CB1ACF03FB00C784F0 /* JsonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonData.m; sourceTree = "<group>"; };
 		93CD77AD1999604D00D27E0A /* Assessment4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assessment4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CD77B01999604D00D27E0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93CD77B21999604D00D27E0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +116,8 @@
 				56FBD0C51ACED9B500C784F0 /* Dog.m */,
 				56FBD0C11ACED9B400C784F0 /* Person.h */,
 				56FBD0C21ACED9B400C784F0 /* Person.m */,
+				56FBD0CA1ACF03FB00C784F0 /* JsonData.h */,
+				56FBD0CB1ACF03FB00C784F0 /* JsonData.m */,
 				93CD77EB199964A100D27E0A /* Model.xcdatamodeld */,
 			);
 			name = Model;
@@ -296,6 +301,7 @@
 				93CD77EA1999642A00D27E0A /* AddDogViewController.m in Sources */,
 				93CD77E7199962E900D27E0A /* DogsViewController.m in Sources */,
 				93CD77ED199964A100D27E0A /* Model.xcdatamodeld in Sources */,
+				56FBD0CC1ACF03FB00C784F0 /* JsonData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

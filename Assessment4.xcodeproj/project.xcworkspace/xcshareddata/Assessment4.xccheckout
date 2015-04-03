@@ -10,6 +10,8 @@
 	<string>Assessment4</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>9C200AEEE72BA83B009311B9139060E26BEC1368</key>
+		<string>https://github.com/pessini/MMWeek-4-Assessment.git</string>
 		<key>B2F4B7596FE36E1C349B9FB0E14D44DCCB28BFB3</key>
 		<string>https://github.com/vikdenic/assessment4.git</string>
 	</dict>
@@ -17,17 +19,27 @@
 	<string>Assessment4.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B2F4B7596FE36E1C349B9FB0E14D44DCCB28BFB3</key>
+		<key>9C200AEEE72BA83B009311B9139060E26BEC1368</key>
 		<string>../..</string>
+		<key>B2F4B7596FE36E1C349B9FB0E14D44DCCB28BFB3</key>
+		<string>../../../assessment4</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/vikdenic/assessment4.git</string>
+	<string>https://github.com/pessini/MMWeek-4-Assessment.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B2F4B7596FE36E1C349B9FB0E14D44DCCB28BFB3</string>
+	<string>9C200AEEE72BA83B009311B9139060E26BEC1368</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9C200AEEE72BA83B009311B9139060E26BEC1368</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Assessment</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

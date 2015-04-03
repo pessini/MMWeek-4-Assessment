@@ -1,17 +1,13 @@
 //
-//  Person.m
+//  JsonData.h
 //  Assessment4
 //
 //  Created by Leandro Pessini on 4/3/15.
 //  Copyright (c) 2015 MobileMakers. All rights reserved.
 //
 
-#import "Person.h"
+#import <Foundation/Foundation.h>
 
-
-@implementation Person
-
-@dynamic name;
-@dynamic dogs;
-
+@interface JsonData : NSObject
++ (NSArray *)retrieveDogOwnersFromAPI;
 @end

@@ -74,7 +74,6 @@
 
     UIColor *defaultColor;
 
-
     if (buttonIndex == 0)
     {
         defaultColor = [UIColor purpleColor];

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "Person.h"
+#import "JsonData.h"
 
 #define kNSUUserDefaultsLastSavedKey @"kNSUUserDefaultsLastSavedKey"
 
@@ -46,7 +46,7 @@
     {
         // call json to populate Core Data
         self.jsonArray = [NSArray new];
-        self.jsonArray = [Person retrieveDogOwnersFromAPI];
+        self.jsonArray = [JsonData retrieveDogOwnersFromAPI];
 
         for (NSString *person in self.jsonArray)
         {
